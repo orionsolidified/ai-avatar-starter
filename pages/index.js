@@ -91,10 +91,6 @@ const Home = () => {
     <div className="root">
       <Head>
         <title>Kara Gen | buildspace</title>
-        <meta
-          property="og:image"
-          content="https://og.railway.app/api/image?fileType=png&layoutName=Simple&Text=Kara+Gen"
-        />
       </Head>
       <div className="container">
         <div className="header">
@@ -144,7 +140,7 @@ const Home = () => {
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <p>buildspace - By Tagachi</p>
           </div>
         </a>
       </div>

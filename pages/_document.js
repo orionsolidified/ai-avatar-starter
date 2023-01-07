@@ -4,13 +4,18 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta property="og:title" content="AI Avatar Generator" key="title" />
+        <meta property="og:title" content="Kara Gen - by Tagachi" key="title" />
         <meta
           property="og:description"
-          content="build with buildspace"
+          content="Turn Kara into anyone you want! Make sure you refer to me as 'kara' in the prompt"
           key="description"
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
+
+        <meta
+          property="og:image"
+          content="https://og.railway.app/api/image?fileType=png&layoutName=Simple&Text=Kara+Gen"
+        />
       </Head>
       <body>
         <Main />
