@@ -91,6 +91,10 @@ const Home = () => {
     <div className="root">
       <Head>
         <title>Kara Gen | buildspace</title>
+        <meta 
+          property="og:image" 
+          content="https://ai.kara.systems/api/og-image?name=Next.js&stage=adopt" 
+        />
       </Head>
       <div className="container">
         <div className="header">
